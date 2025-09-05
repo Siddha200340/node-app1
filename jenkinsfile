@@ -16,8 +16,8 @@ pipeline {
 
         stage('Push') {
             steps {
-                bat 'docker tag node-app1 my-username/node-app1:latest'
-                bat 'docker push my-username/node-app1:latest'
+                bat 'docker tag node-app1 siddha200340/node-app1:latest'
+                bat 'docker push siddha200340/node-app1:latest'
             }
         }
 
